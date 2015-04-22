@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F327D51AE8310A002920EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F327D41AE8310A002920EE /* main.m */; };
+		D0F327D81AE8310A002920EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F327D71AE8310A002920EE /* AppDelegate.m */; };
+		D0F327DB1AE8310A002920EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F327DA1AE8310A002920EE /* ViewController.m */; };
+		D0F327DE1AE8310A002920EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F327DC1AE8310A002920EE /* Main.storyboard */; };
+		D0F327E01AE8310A002920EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F327DF1AE8310A002920EE /* Images.xcassets */; };
+		D0F327E31AE8310A002920EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F327E11AE8310A002920EE /* LaunchScreen.xib */; };
+		D0F327EF1AE8310A002920EE /* AlertViewNoButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F327EE1AE8310A002920EE /* AlertViewNoButtonsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F327E91AE8310A002920EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F327C71AE8310A002920EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F327CE1AE8310A002920EE;
+			remoteInfo = AlertViewNoButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F327CF1AE8310A002920EE /* AlertViewNoButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertViewNoButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F327D31AE8310A002920EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F327D41AE8310A002920EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F327D61AE8310A002920EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F327D71AE8310A002920EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F327D91AE8310A002920EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0F327DA1AE8310A002920EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0F327DD1AE8310A002920EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F327DF1AE8310A002920EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0F327E21AE8310A002920EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0F327E81AE8310A002920EE /* AlertViewNoButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewNoButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F327ED1AE8310A002920EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F327EE1AE8310A002920EE /* AlertViewNoButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewNoButtonsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F327CC1AE8310A002920EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F327E51AE8310A002920EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F327C61AE8310A002920EE = {
+			isa = PBXGroup;
+			children = (
+				D0F327D11AE8310A002920EE /* AlertViewNoButtons */,
+				D0F327EB1AE8310A002920EE /* AlertViewNoButtonsTests */,
+				D0F327D01AE8310A002920EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F327D01AE8310A002920EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F327CF1AE8310A002920EE /* AlertViewNoButtons.app */,
+				D0F327E81AE8310A002920EE /* AlertViewNoButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F327D11AE8310A002920EE /* AlertViewNoButtons */ = {
+			isa = PBXGroup;
+			children = (
+				D0F327D61AE8310A002920EE /* AppDelegate.h */,
+				D0F327D71AE8310A002920EE /* AppDelegate.m */,
+				D0F327D91AE8310A002920EE /* ViewController.h */,
+				D0F327DA1AE8310A002920EE /* ViewController.m */,
+				D0F327DC1AE8310A002920EE /* Main.storyboard */,
+				D0F327DF1AE8310A002920EE /* Images.xcassets */,
+				D0F327E11AE8310A002920EE /* LaunchScreen.xib */,
+				D0F327D21AE8310A002920EE /* Supporting Files */,
+			);
+			path = AlertViewNoButtons;
+			sourceTree = "<group>";
+		};
+		D0F327D21AE8310A002920EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F327D31AE8310A002920EE /* Info.plist */,
+				D0F327D41AE8310A002920EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F327EB1AE8310A002920EE /* AlertViewNoButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F327EE1AE8310A002920EE /* AlertViewNoButtonsTests.m */,
+				D0F327EC1AE8310A002920EE /* Supporting Files */,
+			);
+			path = AlertViewNoButtonsTests;
+			sourceTree = "<group>";
+		};
+		D0F327EC1AE8310A002920EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F327ED1AE8310A002920EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F327CE1AE8310A002920EE /* AlertViewNoButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F327F21AE8310A002920EE /* Build configuration list for PBXNativeTarget "AlertViewNoButtons" */;
+			buildPhases = (
+				D0F327CB1AE8310A002920EE /* Sources */,
+				D0F327CC1AE8310A002920EE /* Frameworks */,
+				D0F327CD1AE8310A002920EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertViewNoButtons;
+			productName = AlertViewNoButtons;
+			productReference = D0F327CF1AE8310A002920EE /* AlertViewNoButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F327E71AE8310A002920EE /* AlertViewNoButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F327F51AE8310A002920EE /* Build configuration list for PBXNativeTarget "AlertViewNoButtonsTests" */;
+			buildPhases = (
+				D0F327E41AE8310A002920EE /* Sources */,
+				D0F327E51AE8310A002920EE /* Frameworks */,
+				D0F327E61AE8310A002920EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F327EA1AE8310A002920EE /* PBXTargetDependency */,
+			);
+			name = AlertViewNoButtonsTests;
+			productName = AlertViewNoButtonsTests;
+			productReference = D0F327E81AE8310A002920EE /* AlertViewNoButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F327C71AE8310A002920EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Lua Technologies";
+				TargetAttributes = {
+					D0F327CE1AE8310A002920EE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D0F327E71AE8310A002920EE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D0F327CE1AE8310A002920EE;
+					};
+				};
+			};
+			buildConfigurationList = D0F327CA1AE8310A002920EE /* Build configuration list for PBXProject "AlertViewNoButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F327C61AE8310A002920EE;
+			productRefGroup = D0F327D01AE8310A002920EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F327CE1AE8310A002920EE /* AlertViewNoButtons */,
+				D0F327E71AE8310A002920EE /* AlertViewNoButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F327CD1AE8310A002920EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F327DE1AE8310A002920EE /* Main.storyboard in Resources */,
+				D0F327E31AE8310A002920EE /* LaunchScreen.xib in Resources */,
+				D0F327E01AE8310A002920EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F327E61AE8310A002920EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F327CB1AE8310A002920EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F327DB1AE8310A002920EE /* ViewController.m in Sources */,
+				D0F327D81AE8310A002920EE /* AppDelegate.m in Sources */,
+				D0F327D51AE8310A002920EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F327E41AE8310A002920EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F327EF1AE8310A002920EE /* AlertViewNoButtonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F327EA1AE8310A002920EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F327CE1AE8310A002920EE /* AlertViewNoButtons */;
+			targetProxy = D0F327E91AE8310A002920EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F327DC1AE8310A002920EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F327DD1AE8310A002920EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F327E11AE8310A002920EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F327E21AE8310A002920EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F327F01AE8310A002920EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0F327F11AE8310A002920EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F327F31AE8310A002920EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlertViewNoButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0F327F41AE8310A002920EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlertViewNoButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0F327F61AE8310A002920EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlertViewNoButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertViewNoButtons.app/AlertViewNoButtons";
+			};
+			name = Debug;
+		};
+		D0F327F71AE8310A002920EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlertViewNoButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertViewNoButtons.app/AlertViewNoButtons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F327CA1AE8310A002920EE /* Build configuration list for PBXProject "AlertViewNoButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F327F01AE8310A002920EE /* Debug */,
+				D0F327F11AE8310A002920EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F327F21AE8310A002920EE /* Build configuration list for PBXNativeTarget "AlertViewNoButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F327F31AE8310A002920EE /* Debug */,
+				D0F327F41AE8310A002920EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0F327F51AE8310A002920EE /* Build configuration list for PBXNativeTarget "AlertViewNoButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F327F61AE8310A002920EE /* Debug */,
+				D0F327F71AE8310A002920EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F327C71AE8310A002920EE /* Project object */;
+}
