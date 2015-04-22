@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonTapped:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"No Buttons" message:@"This alert view cannot be dismissed because it doesn't have any buttons" delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
+    [alert show];
+}
+
 @end
